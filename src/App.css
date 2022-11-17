@@ -1,38 +1,755 @@
-.App {
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/* 
+@font-face {
+  font-family: "Righteous";
+  src: url("../fonts/BalooChettan-Regular.ttf");
+  src: url("../fonts/BalooChettan-Regular.ttf");
+} */
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+/* @import url('../public/css/animate.min.css');
+@import url('../public/css/normalize.css'); */
+/* @import url('../public/css/icomoon.css'); */
+/* @import url('../public/css/font-awesome.min.css'); */
+/* @import url('../public/css/meanmenu.css'); */
+/* @import url('../public/css/owl.carousel.min.css'); */
+/* @import url('../public/css/swiper.min.css'); */
+/* @import url('../public/css/slick.css'); */
+/* @import url('../public/css/jquery.fancybox.min.css'); */
+/* @import url('../public/css/jquery-ui.css'); */
+/* @import url('../public/css/nice-select.css'); */
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+* {
+  box-sizing: border-box !important;
+  transition: ease all 0.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #666666;
+  font-size: 14px;
+  font-family: Poppins;
+  line-height: 1.80857;
+  font-weight: normal;
+  overflow-x: hidden;
+}
+
+a {
+  color: #1f1f1f;
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0;
+  font-weight: normal;
+  position: relative;
+  padding: 0 0 10px 0;
+  font-weight: normal;
+  line-height: normal;
+  color: #111111;
+  margin: 0
+}
+
+h1 {
+  font-size: 24px
+}
+
+h2 {
+  font-size: 22px
+}
+
+h3 {
+  font-size: 18px
+}
+
+h4 {
+  font-size: 16px
+}
+
+h5 {
+  font-size: 14px
+}
+
+h6 {
+  font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #212121;
+  text-decoration: none !important;
+  opacity: 1
+}
+
+button:focus {
+  outline: none;
+}
+
+ul,
+li,
+ol {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+p {
+  margin: 20px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+  outline: none !important;
+}
+
+a,
+.btn {
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:focus {
+  outline: 0;
+}
+
+.paddind_bottom_0 {
+  padding-bottom: 0 !important;
+}
+
+.btn-custom {
+  margin-top: 20px;
+  background-color: transparent !important;
+  border: 2px solid #ddd;
+  padding: 12px 40px;
+  font-size: 16px;
+}
+
+.lead {
+  font-size: 18px;
+  line-height: 30px;
+  color: #767676;
+  margin: 0;
+  padding: 0;
+}
+
+.form-control:focus {
+  border-color: #ffffff !important;
+  box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+}
+
+.navbar-form input {
+  border: none !important;
+}
+
+.badge {
+  font-weight: 500;
+}
+
+blockquote {
+  margin: 20px 0 20px;
+  padding: 30px;
+}
+
+button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.full {
+  float: left;
+  width: 100%;
+}
+
+.layout_padding {
+  padding-top: 90px;
+  padding-bottom: 0px;
+}
+
+.padding_0 {
+  padding: 0px;
+}
+
+
+
+
+
+
+
+
+/*******************************************/
+/*Header secction*/
+.header_section {
+  width: 100%;
+  float: left;
+  background-image: url('./assets/images/header-bg.png');
+  height: auto;
+  background-size: 100%;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.logo {
+  width: 25%;
+  float: left;
+}
+
+/*******************************************/
+/*Fin secction*/
+
+/***********************************/
+/*Inicio Banner secction*/
+.layout_padding {
+  padding-top: 90px;
+  padding-bottom: 0px;
+}
+
+.banner_section {
+  width: 100%;
+  float: left;
+  background-image: url('./assets/images/banner-bg.png');
+  height: auto;
+  padding-bottom: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.furniture_text {
+  width: 100%;
+  float: left;
+  font-size: 100px;
+  color: #090808;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact_bt_main {
+  width: 17%;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media (max-width: 575px) {
+  .banner_section {
+    background-size: cover;
+    padding-top: 20px;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .furniture_text {
+    font-size: 50px;
+  }
+
+  .contact_bt_main {
+    width: 150px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner_section {
+    padding-top: 20px;
+    padding-bottom: 28PX;
   }
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner_section {
+    padding-bottom: 40px;
+  }
+}
+
+/***********************************/
+/*Fin Banner secction*/
+
+/***********************************/
+/*Inicio Services secction*/
+
+.services_section {
+  width: 100%;
+  float: left;
+  padding-bottom: 90px;
+}
+
+.services_taital {
+  width: 100%;
+  float: left;
+  font-size: 36px;
+  color: #090808;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.many_taital {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #090808;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.services_section2 {
+  width: 100%;
+  float: left;
+}
+
+.icon_1 {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.furnitures_text {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  color: #090808;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.dummy_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #090808;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.read_bt_main {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.read_bt {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+
+.read_bt a {
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #ffb607;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .services_section2 {
+    padding-top: 30px;
+  }
+
+  .icon_1 {
+    padding-top: 30px;
+  }
+
+  .dummy_text {
+    font-size: 15px;
+  }
+
+  .read_bt_main {
+    width: 150px;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .services_section2 {
+    padding-top: 30px;
+  }
+
+  .icon_1 {
+    padding-top: 30px;
+  }
+
+  .dummy_text {
+    font-size: 15px;
+  }
+
+  .read_bt_main {
+    width: 150px;
+  }
+}
+
+
+/***********************************/
+/*Fin Services secction*/
+
+/***********************************/
+/*Inicio About secction*/
+
+.about_section {
+  width: 100%;
+  float: left;
+  background-color: #ffb607;
+  height: auto;
+  padding-bottom: 90px;
+}
+
+.about_text {
+  width: 100%;
+  float: left;
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.lorem_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 0px;
+  padding-top: 40px;
+}
+
+.read_bt1 {
+  width: 30%;
+  float: left;
+  margin-top: 70px;
+}
+
+.image_1 {
+  width: 100%;
+  float: left;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .lorem_text {
+    padding-top: 0px;
+    font-size: 15px;
+  }
+
+  .read_bt1 {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+  .image_1 {
+    padding-top: 50px;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .lorem_text {
+    padding-top: 0px;
+    font-size: 15px;
+  }
+
+  .read_bt1 {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+  .image_1 {
+    padding-top: 50px;
+  }
+
+}
+
+/***********************************/
+/*Fin About secction*/
+/***********************************/
+/*Inicio  Muebles secction*/
+.furnitures_section {
+  width: 100%;
+  float: left;
+  padding-bottom: 90px;
+}
+
+.our_text {
+  width: 100%;
+  float: left;
+  font-size: 36px;
+  color: #121111;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ipsum_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #090808;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.furnitures_section2 {
+  width: 100%;
+  float: left;
+}
+
+.container_main {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.temper_text {
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  color: #fabb25;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 35px;
+}
+
+.dololr_text {
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  color: #121111;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .temper_text {
+    font-size: 15px;
+  }
+
+  .dololr_text {
+    font-size: 16px;
+  }
+
+
+}
+
+@media (max-width: 575px) {
+  .dololr_text {
+    font-size: 16px;
+  }
+}
+
+
+/***********************************/
+/*Fin Muebles secction*/
+/***********************************/
+/*Inicio Proyectos secction*/
+.projects_section {
+  width: 100%;
+  float: left;
+}
+
+.our_text {
+  width: 100%;
+  float: left;
+  font-size: 36px;
+  color: #121111;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ipsum_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #090808;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.projects_section2 {
+  width: 100%;
+  float: left;
+  padding-top: 60px;
+}
+
+.container_main2 {
+  width: 100%;
+  float: left;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.modern_text {
+  width: 100%;
+  float: left;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
+  top: -50px;
+  text-align: center;
+  z-index: 22;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 99999;
+}
+
+.text {
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+}
+
+#main_slider .carousel-control-prev,
+#main_slider .carousel-control-next {
+  width: 65px;
+  height: 65px;
+  background: #000;
+  opacity: 1;
+  font-size: 30px;
+  color: #fff;
+}
+
+#main_slider .carousel-control-prev,
+#main_slider .carousel-control-next {
+  width: 65px;
+  height: 65px;
+  background: #000;
+  opacity: 1;
+  font-size: 30px;
+  color: #fff;
+}
+
+#main_slider a.carousel-control-next {
+  position: absolute;
+  right: -95px;
+  top: 57%;
+}
+
+#main_slider .carousel-control-prev,
+#main_slider .carousel-control-next {
+  width: 65px;
+  height: 65px;
+  background: #000;
+  opacity: 1;
+  font-size: 30px;
+  color: #fff;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .modern_text {
+    font-size: 12px;
+    top: -30px;
+  }
+}
+
+@media (max-width: 575px) {
+  #main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 175px;
+    top: 90%;
+    display: none;
+  }
+
+  #main_slider a.carousel-control-next {
+    position: absolute;
+    left: 236px;
+    top: 90%;
+    display: none;
+  }
+
+  .text {
+    font-size: 8px;
+  }
+
+}
+
+
+
+/***********************************/
+/*Fin Proyectos secction*/

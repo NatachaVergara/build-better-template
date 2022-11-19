@@ -2,8 +2,8 @@
 
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 /* 
 @font-face {
   font-family: "Righteous";
@@ -14,7 +14,6 @@
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
  ----------------------------------------*****/
-
 
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
@@ -56,11 +55,11 @@ a {
   color: #1f1f1f;
   text-decoration: none !important;
   outline: none !important;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 h1,
@@ -76,31 +75,31 @@ h6 {
   font-weight: normal;
   line-height: normal;
   color: #111111;
-  margin: 0
+  margin: 0;
 }
 
 h1 {
-  font-size: 24px
+  font-size: 24px;
 }
 
 h2 {
-  font-size: 22px
+  font-size: 22px;
 }
 
 h3 {
-  font-size: 18px
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 16px
+  font-size: 16px;
 }
 
 h5 {
-  font-size: 14px
+  font-size: 14px;
 }
 
 h6 {
-  font-size: 13px
+  font-size: 13px;
 }
 
 *,
@@ -119,7 +118,7 @@ h5 a,
 h6 a {
   color: #212121;
   text-decoration: none !important;
-  opacity: 1
+  opacity: 1;
 }
 
 button:focus {
@@ -151,11 +150,11 @@ a,
 .btn {
   text-decoration: none !important;
   outline: none !important;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 img {
@@ -189,7 +188,7 @@ img {
 
 .form-control:focus {
   border-color: #ffffff !important;
-  box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
 }
 
 .navbar-form input {
@@ -226,19 +225,12 @@ button {
   padding: 0px;
 }
 
-
-
-
-
-
-
-
 /*******************************************/
 /*Header secction*/
 .header_section {
   width: 100%;
   float: left;
-  background-image: url('./assets/images/header-bg.png');
+  background-image: url("./assets/images/header-bg.png");
   height: auto;
   background-size: 100%;
 }
@@ -273,7 +265,7 @@ button {
 .banner_section {
   width: 100%;
   float: left;
-  background-image: url('./assets/images/banner-bg.png');
+  background-image: url("./assets/images/banner-bg.png");
   height: auto;
   padding-bottom: 50px;
   background-size: 100%;
@@ -313,7 +305,7 @@ button {
 @media (min-width: 768px) and (max-width: 991px) {
   .banner_section {
     padding-top: 20px;
-    padding-bottom: 28PX;
+    padding-bottom: 28px;
   }
 }
 
@@ -425,7 +417,6 @@ button {
   .read_bt_main {
     width: 150px;
   }
-
 }
 
 @media (max-width: 575px) {
@@ -445,7 +436,6 @@ button {
     width: 150px;
   }
 }
-
 
 /***********************************/
 /*Fin Services secction*/
@@ -490,8 +480,6 @@ button {
   float: left;
 }
 
-
-
 @media (min-width: 768px) and (max-width: 991px) {
   .lorem_text {
     padding-top: 0px;
@@ -506,7 +494,6 @@ button {
   .image_1 {
     padding-top: 50px;
   }
-
 }
 
 @media (max-width: 575px) {
@@ -523,7 +510,6 @@ button {
   .image_1 {
     padding-top: 50px;
   }
-
 }
 
 /***********************************/
@@ -585,7 +571,6 @@ button {
   margin-left: 0px;
 }
 
-
 @media (min-width: 768px) and (max-width: 991px) {
   .temper_text {
     font-size: 15px;
@@ -594,8 +579,6 @@ button {
   .dololr_text {
     font-size: 16px;
   }
-
-
 }
 
 @media (max-width: 575px) {
@@ -603,7 +586,6 @@ button {
     font-size: 16px;
   }
 }
-
 
 /***********************************/
 /*Fin Muebles secction*/
@@ -649,7 +631,7 @@ button {
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
+  transition: 0.5s ease;
   backface-visibility: hidden;
 }
 
@@ -666,7 +648,7 @@ button {
 }
 
 .middle {
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -720,7 +702,6 @@ button {
   color: #fff;
 }
 
-
 @media (min-width: 768px) and (max-width: 991px) {
   .modern_text {
     font-size: 12px;
@@ -746,10 +727,210 @@ button {
   .text {
     font-size: 8px;
   }
-
 }
-
-
 
 /***********************************/
 /*Fin Proyectos secction*/
+/***********************************/
+/*Inicio Contacto secction*/
+.contact_section {
+  width: 100%;
+  float: left;
+  background-image: url("./assets/images/contact-bg.png");
+  height: auto;
+  background-size: 100%;
+  padding-bottom: 90px;
+  background-repeat: no-repeat;
+}
+
+.contact_text {
+  width: 100%;
+  float: left;
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+}
+
+.mail_sectin {
+  width: 100%;
+  float: left;
+}
+
+.email-bt {
+  color: rgb(152, 150, 150);
+  width: 100%;
+  height: 55px;
+  font-size: 18px;
+  margin-top: 25px;
+  padding: 20px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 5px;
+}
+
+.massage-bt {
+  color: rgb(152, 150, 150);
+  width: 100%;
+  height: 150px;
+  font-size: 18px;
+  margin-top: 25px;
+  padding: 50px 20px 10px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 5px;
+}
+
+.send_bt {
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+
+.send_bt a {
+  width: 30%;
+  float: left;
+  font-size: 20px;
+  color: rgb(152, 150, 150);
+  text-align: center;
+  font-weight: bold;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-image: initial;
+  padding: 10px 0px;
+}
+
+.image_9 {
+  width: 100%;
+  float: left;
+  padding-top: 83px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact_section {
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact_section {
+    background-size: cover;
+  }
+
+  .email-bt,
+  .massage-bt {
+    margin-top: 10px;
+  }
+
+  .send_bt {
+    margin-top: 20px;
+  }
+
+  .send_bt a {
+    width: 130px;
+    padding: 5px 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact_section {
+    background-size: cover;
+  }
+}
+
+/***********************************/
+/*Fin Contacto secction*/
+/***********************************/
+
+/*Inicio Footer secction*/
+/***********************************/
+
+.footer_section {
+  width: 100%;
+  float: left;
+  background-color: rgb(49, 49, 49);
+  height: auto;
+  padding-bottom: 90px;
+}
+
+.fooer_logo {
+  width: 100%;
+  float: left;
+  padding-bottom: 40px;
+}
+
+.footer_lorem_text {
+  width: 80%;
+  float: left;
+  font-size: 16px;
+  color: rgb(254, 254, 254);
+  margin-left: 0px;
+}
+
+.customer_text {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.input-group-text a {
+  color: rgb(255, 255, 255);
+}
+
+/*Copiright*/
+.copyright_section {
+  width: 100%;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+}
+
+.copyright_section {
+  width: 100%;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+}
+
+.social_icon ul {
+  display: inline-flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.social_icon li {
+  float: left;
+  padding-right: 5px;
+}
+
+a,
+.btn {
+  transition: all 0.3s ease-in-out 0s;
+  text-decoration: none !important;
+  outline: none !important;
+}
+.copyright_text {
+  width: 100%;
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 16px;
+  margin-left: 0px;
+}
+.copyright_text a {
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 575px) {
+  .input-group {
+    width: 290px;
+  }
+}
+
+/***********************************/
+/*Fin Footer secction*/

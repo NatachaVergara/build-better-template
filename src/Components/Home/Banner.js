@@ -11,9 +11,9 @@ const Banner = () => {
                 <div className="container">
                     <div id="z" className="carousel slide" data-ride="carousel">
                         <div className="carousel-inner">
-                            <CarouselItem h1='Muebles' p='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some fo' a='Contact Us' active='active' />
-                            <CarouselItem h1='Baño' p='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some fo' a='Contact Us' />
-                            <CarouselItem h1='Cocina' p='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some fo' a='Contact Us' />
+                            <CarouselItem h1='Muebles' p='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some fo' active='active' />
+                            <CarouselItem h1='Baño' p='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some fo' />
+                            <CarouselItem h1='Cocina' p='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some fo'  />
                         </div>
                         <a className="carousel-control-prev" href="#costum_slider" role="button" data-slide="prev">
                             <i className=""><img src={left_arrow} alt='left_arrow' /></i>

@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../../assets/images/logo.png'
+import logoWhatups from '../../assets/images/logo_whatsup.png'
 
 
 const Header = () => {
@@ -16,23 +18,26 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="index.html">Home</a>
+                  <Link className="nav-link" to="/home">Inicio</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="services.html">servicios</a>
+                  <Link className="nav-link" to="/servicios">servicios</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="about.html">Sobre nosotros</a>
+                  <Link className="nav-link" to="/about">Sobre nosotros</Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="shop.html">Productos</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="contact.html">Contacto</a>
+                  <Link className="nav-link" to="/contacto">Contacto</Link>
                 </li>
               </ul>
               <div className="form-inline my-2 my-lg-0">
-                <h1 className="call_text">Contacto : 1234567890</h1>
+                <a href="https://api.whatsapp.com/send?phone=0123456789&text=Hola, Nececito más información!" target='_blank' rel='noreferrer' className='logo-whatsup'  >
+                 <img src={logoWhatups} alt='logo whatsup' className='me-3 text-dark'/>
+                     0123456789
+                </a>
               </div>
               {/* <div className="search_icon">
                      <ul>

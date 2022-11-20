@@ -1,0 +1,15 @@
+.sercicioBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:5rem;
+    
+}
+
+.body h2{
+    text-align: center;   
+}
+
+.body p{
+    text-align: justify;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import icon1 from '../../assets/images/icon-1.png'
 import icon2 from '../../assets/images/icon-2.png'
 import icon3 from '../../assets/images/icon-3.png'
+import icon4 from '../../assets/images/icon-4.png'
 import ServiceItem from './ServiceItem'
 
 
@@ -10,7 +11,7 @@ const Servicios = () => {
         // <!-- services section start -->
         <div className="services_section layout_padding">
             <div className="container">
-                <h1 className="services_taital">our services</h1>
+                <h1 className="services_taital">Servicios</h1>
                 <p className="many_taital">There are many variations of passages of Lorem Ipsum </p>
                 <div className="services_section2 layout_padding">
                     <div className="row">
@@ -33,7 +34,7 @@ const Servicios = () => {
                             h2='Habitaciones'
                             p='There are many variations of passages of Lorem Ipsum available, but the'
                             a='Leer más..'
-                            img={icon3} />
+                            img={icon4} />
                     </div>
                 </div>
             </div>

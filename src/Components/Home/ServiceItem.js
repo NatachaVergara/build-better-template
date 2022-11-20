@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ServiceItem = ({h2, p, a, img}) => {
     return (
@@ -7,7 +8,7 @@ const ServiceItem = ({h2, p, a, img}) => {
             <h2 className="furnitures_text">{h2} </h2>
             <p className="dummy_text">{p} </p>
             <div className="read_bt_main">
-                <div className="read_bt"><a href="/home"> {a} </a></div>
+                <div className="read_bt"><Link to="/servicios"> {a} </Link></div>
             </div>
         </div>
     )

@@ -1,10 +1,12 @@
 import React from 'react'
 import Home from '../Components/Home'
+import { title } from '../utils/functions'
 
 
 const HomeView = () => {
-  let title = 'Build Better - Inicio'
-  document.title = title;
+ title('Inicio');
+
+ 
   return (
     <Home />
   )

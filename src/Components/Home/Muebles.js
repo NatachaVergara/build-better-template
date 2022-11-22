@@ -8,7 +8,7 @@ import img3 from '../../assets/images/img-3.png'
 const Muebles = () => {
     return (
         // <!-- furnitures section start -->
-        <div className="furnitures_section layout_padding"  data-aos="fade-right">
+        <div className="furnitures_section layout_padding" >
             <div className="container">
                 <h1 className="our_text">Nuestros  muebles</h1>
                 <p className="ipsum_text">There are many variations of passages of Lorem Ipsum </p>

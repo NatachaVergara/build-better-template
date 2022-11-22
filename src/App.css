@@ -246,22 +246,54 @@ button {
 .bg-light {
   background-color: transparent !important;
 }
+.navbar-light .navbar-nav .nav-link {
+  color: #111111;
+  font-size: 18px;
+  text-transform: uppercase;
+}
 
 .logo {
   width: 25%;
   float: left;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.mb-lg-0, .my-lg-0 {
+  margin-bottom: 0!important;
+  width: 25%;
+  float: left;
+}
 .logo-whatsup:hover{
   color: #ffc107;;
 }
+
+
+@media (max-width: 575px){
+  .logo {
+    width: 50%;
+   
+  }
+  .logo-whatsup{
+    width: 100%;
+  }
+  
+}
+
 
 /*******************************************/
 /*Fin secction*/
 
 /***********************************/
 /*Inicio Banner secction*/
-.layout_padding {
+.banner_layout_padding {
   padding-top: 90px;
   padding-bottom: 0px;
 }
@@ -276,7 +308,7 @@ button {
   background-repeat: no-repeat;
 }
 
-.furniture_text {
+.furniture_title {
   width: 100%;
   float: left;
   font-size: 100px;
@@ -291,21 +323,10 @@ button {
   text-align: center;
 }
 
-@media (max-width: 575px) {
-  
-  .banner_section {
-    background-size: cover;
-    padding-top: 20px;
-  }
-
-  .furniture_text {
-    font-size: 50px;
-  }
-
-  .contact_bt_main {
-    width: 150px;
-  }
+.contact_bt_main  .contact_bt{
+  margin-top: 300px;
 }
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   .banner_section {
@@ -318,6 +339,35 @@ button {
   .banner_section {
     padding-bottom: 40px;
   }
+}
+
+
+@media (max-width: 575px) {
+.banner_layout_padding{
+  padding-top: 30px;
+}
+  .banner_section {
+    height:0%;
+    background-position: 0px;
+    background-position-y: 210px;
+    /* padding-top: 20px; */
+  }
+
+  .furniture_title {
+    font-size: 50px;
+  }
+  .there_text{
+    width: 100%;
+  }
+
+  .contact_bt_main {
+    width: 150px;
+  }
+
+.contact_bt_main  .contact_bt{
+  margin-top: 235px;
+}
+
 }
 
 /***********************************/
@@ -747,6 +797,13 @@ button {
 }  
 .proyecto_section h5{
   text-transform:uppercase;
+}
+
+.proyecto-carousel{
+  margin-left: 10px;
+}
+.proyecto-card{
+  margin-left: 10px;
 }
 
 /***********************************/

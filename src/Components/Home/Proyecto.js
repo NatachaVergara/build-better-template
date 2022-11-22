@@ -47,7 +47,7 @@ const Proyecto = () => {
 
   return (
     <main className="proyecto_section layout_padding d-flex justify-content-center align-items-center row">
-      <div className="col-12 col-md-6  col-lg-5">
+      <div className="col-11 col-md-6 col-lg-5 proyecto-carousel">
         <Carousel showArrows={false} axis="horizontal" autoPlay>
           {fotos.map((foto) => (
             <div key={foto.id}>
@@ -57,7 +57,7 @@ const Proyecto = () => {
         </Carousel>
       </div>
       <div
-        className="card border border-dark border-opacity-25 col-12 col-md-6 col-lg-5"
+        className="card border border-dark border-opacity-25 col-11 col-md-6 col-lg-5 proyecto-card"
         style={{ width: "18rem" }}
       >
         <div className="hide">

@@ -6,10 +6,16 @@
     
 }
 
-.body h2{
-    text-align: center;   
-}
+.service_icon img {
+    width:120px;
+    margin-left: 20%;
+    float: left;
+    text-align: center;
+  }
 
-.body p{
-    text-align: justify;
-}
+  @media (max-width: 575px){
+    .service_icon img{
+        width:100px;
+        margin-left: 30%;
+    }
+  }

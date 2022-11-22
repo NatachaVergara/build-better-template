@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 
@@ -9,15 +10,13 @@ const Copyright = () => {
             <div className="container">
                 <div className="social_icon">
                     <ul>
-                        <li><a href="#"><box-icon type='logo' size='md' name='facebook-circle'></box-icon></a></li>
-                        <li><a href="#"><box-icon type='logo' size='md' name='twitter'></box-icon></a></li>
-                        <li><a href="#"><box-icon type='logo' size='md' name='instagram-alt'></box-icon></a></li>
-                        <li><a href="#"><box-icon type='logo' size='md' name='linkedin-square'></box-icon></a></li>
+                        <li><Link to='/'><box-icon type='logo' size='md' name='facebook-circle'></box-icon></Link></li>
+                        <li><Link to='/'><box-icon type='logo' size='md' name='twitter'></box-icon></Link></li>
+                        <li><Link to='/'><box-icon type='logo' size='md' name='instagram-alt'></box-icon></Link></li>
+                        <li><Link to='/'><box-icon type='logo' size='md' name='linkedin-square'></box-icon></Link></li>
                     </ul>
                 </div>
-                <p className="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free html
-                    Templates</a>
-                </p>
+                <p className="copyright_text">2020 All Rights Reserved</p>
             </div>
         </div>    
   )

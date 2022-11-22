@@ -30,7 +30,7 @@ const Footer = () => {
           <input type="text" className="form-control" placeholder="Ingresa tu mail" aria-label="Ingresa tu mail"
             aria-describedby="basic-addon2" />
           <div className="input-group-append">
-            <span className="input-group-text" id="basic-addon2"><a href="#">Suscribite</a></span>
+            <span className="input-group-text" id="basic-addon2"><button className="btn btn-outline-light mb-1">Suscribite</button></span>
           </div>
         </div>
       </div>    

@@ -3,7 +3,7 @@ import React from 'react'
 const Producto = ({img, h5}) => {
     return (
 
-        <div className="card mx-0 m-md-2 my-2" style={{width: "18rem"}}>
+        <div className="card mx-0 m-md-2 my-2" style={{width: "18rem"}} data-aos="flip-right">
             <img src={img} className="card-img-top" alt={img} style={{wdth: "100%"}}/>
             <div className="card-body">
                 <h5 className="card-title">{h5} </h5>

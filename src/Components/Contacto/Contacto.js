@@ -10,8 +10,8 @@ const Contacto = () => {
             <div className="row">
                <div className="col-md-6">
                   <h1 className="contact_text">CONTACTANOS</h1>
-                  <div className="mail_sectin">
-                     <form>
+                  <div className="mail_sectin"  data-aos="flip-left">
+                     <form >
                         <input type="text" className="email-bt" placeholder="Nombre*" name="Name" required />
                         <input type="mail" className="email-bt" placeholder="Email*" name="Name" required />
                         <input type="text" className="email-bt" placeholder="Número tel" name="Name" />

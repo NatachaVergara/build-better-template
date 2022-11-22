@@ -6,7 +6,7 @@ import img1 from '../../assets/images/img-1.png'
 const AboutUs = () => {
     return (
         // <!-- about section start -->f
-        <div className="about_section layout_padding">
+        <div className="about_section layout_padding" data-aos="fade-left">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">

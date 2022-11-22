@@ -6,7 +6,7 @@ const About = () => {
   return (
     <main>
         {/* // <!-- about section start -->f */}
-        <main className="about_section layout_padding">
+        <main className="about_section layout_padding" data-aos="fade-left">
             <div className="container ">
                 <div className="row d-flex flex-column-reverse flex-md-row">
                     <div className="col-md-6">

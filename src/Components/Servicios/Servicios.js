@@ -12,7 +12,7 @@ const Servicios = () => {
     return (
 
         // <!-- services section start -->
-        <div className="services_section layout_padding">
+        <main className="services_section layout_padding">
             <div className="container">
                 <h1 className="services_taital">Servicios</h1>
                 <p className="many_taital">Ofrecemos una gran variedad de servicios personalizados en </p>
@@ -20,7 +20,7 @@ const Servicios = () => {
                     <div className="row">
                         <div className="col-12 sercicioBody ">
                             <div className='body'>
-                                <h2 className="furnitures_text">Muebles en general</h2>
+                                <h2 className="furnitures_text" id='muebles'>Muebles en general</h2>
                                 <p className="dummy_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
                                 {/* <ul className='text-center'>
                                     <li>Lorem </li>
@@ -28,16 +28,16 @@ const Servicios = () => {
                                     <li>Lorem </li>
                                     <li>Lorem </li>
                                 </ul> */}
-                               
+
                             </div>
                             <div className="icon_1"><img src={icon1} alt={icon1} />
                             </div>
                         </div>
-                        <div className="col-12 sercicioBody">
+                        <div className="col-12 sercicioBody" id='oficina'>
                             <div className="icon_1"><img src={icon2} alt={icon2} />
                             </div>
                             <div className='body'>
-                                <h2 className="furnitures_text">Oficina</h2>
+                                <h2 className="furnitures_text" >Oficina</h2>
                                 <p className="dummy_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
                                 {/* <ul className='text-center'>
                                     <li>Lorem </li>
@@ -76,17 +76,10 @@ const Servicios = () => {
                             </div>
 
                         </div>
-
-
-
-
                     </div>
-
-
-
                 </div>
             </div>
-        </div>
+        </main>
         // <!-- services section end -->
 
     )

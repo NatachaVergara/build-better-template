@@ -8,10 +8,10 @@ const Header = () => {
   return (
     <>
       {/* <!-- header section start --> */}
-      <div className="header_section">
+      <header className="header_section">
         <div className="container-fluid">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="logo"><a href="index.html"><img src={logo} alt='logo' /></a></div>
+            <div className="logo"><Link to="/"><img src={logo} alt='logo' /></Link></div>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -27,7 +27,7 @@ const Header = () => {
                   <Link className="nav-link" to="/about">Sobre nosotros</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="shop.html">Productos</a>
+                  <Link className="nav-link" to="/productos">Productos</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/contacto">Contacto</Link>
@@ -48,7 +48,7 @@ const Header = () => {
             </div>
           </nav>
         </div>
-      </div>
+      </header>
       {/* <!-- header section end --> */}
     </>
   )

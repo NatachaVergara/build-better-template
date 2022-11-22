@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Mueblesitem = ({ img, a, h3, p }) => {
     return (
@@ -6,9 +7,9 @@ const Mueblesitem = ({ img, a, h3, p }) => {
             <div className="container_main">
                 <img src={img} alt="Avatar" className="image" />
                 <div className="overlay">
-                    <a href={a} className="icon" title="Ver producto">
+                    <Link to={a} className="icon" title="Ver producto">
                         <i className="fa fa-search"></i>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <h3 className="temper_text">{h3} </h3>

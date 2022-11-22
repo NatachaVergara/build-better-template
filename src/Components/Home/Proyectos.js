@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import img4 from '../../assets/images/img-4.png'
 import img5 from '../../assets/images/img-5.png'
 import img6 from '../../assets/images/img-6.png'
@@ -22,7 +23,7 @@ const Proyectos = () => {
                                                 <img src={img4} alt="Avatar" className="image" style={{ width: "100%" }} />
                                                 <h1 className="modern_text">Proyecto 1</h1>
                                                 <div className="middle">
-                                                    <div className="text">Ver proyecto</div>
+                                                    <Link to='/proyecto/proyecto 1' className="text">Ver proyecto</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -31,7 +32,7 @@ const Proyectos = () => {
                                                 <img src={img5} alt="Avatar" className="image" style={{ width: "100%" }} />
                                                 <h1 className="modern_text">Proyecto 2</h1>
                                                 <div className="middle">
-                                                    <div className="text">Ver proyecto</div>
+                                                    <Link to='/proyecto/proyecto 2' className="text">Ver proyecto</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -40,7 +41,7 @@ const Proyectos = () => {
                                                 <img src={img6} alt="Avatar" className="image" style={{ width: "100%" }} />
                                                 <h1 className="modern_text">Proyecto 3</h1>
                                                 <div className="middle">
-                                                    <div className="text">Ver proyecto</div>
+                                                    <Link to='/proyecto/proyecto 3' className="text">Ver proyecto</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -57,7 +58,7 @@ const Proyectos = () => {
                                                 <img src={img4} alt="Avatar" className="image" style={{ width: "100%" }} />
                                                 <h1 className="modern_text">Proyecto 1</h1>
                                                 <div className="middle">
-                                                    <div className="text">Ver proyecto</div>
+                                                    <Link to='/proyecto/proyecto 1' className="text">Ver proyecto</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -66,7 +67,7 @@ const Proyectos = () => {
                                                 <img src={img5} alt="Avatar" className="image" style={{ width: "100%" }} />
                                                 <h1 className="modern_text">Proyecto 2</h1>
                                                 <div className="middle">
-                                                    <div className="text">Ver proyecto</div>
+                                                    <Link to='/proyecto/proyecto 2' className="text">Ver proyecto</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -75,7 +76,7 @@ const Proyectos = () => {
                                                 <img src={img6} alt="Avatar" className="image" style={{ width: "100%" }} />
                                                 <h1 className="modern_text">Proyecto 3</h1>
                                                 <div className="middle">
-                                                    <div className="text">Ver proyecto</div>
+                                                    <Link to='/proyecto/proyecto 3' className="text">Ver proyecto</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -92,7 +93,7 @@ const Proyectos = () => {
                                                 <img src={img4} alt="Avatar" className="image" style={{ width: "100%" }} />
                                                 <h1 className="modern_text">Proyecto 1</h1>
                                                 <div className="middle">
-                                                    <div className="text">Ver proyecto</div>
+                                                    <Link to='/productos' className="text">Ver proyecto</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -101,7 +102,7 @@ const Proyectos = () => {
                                                 <img src={img5} alt="Avatar" className="image" style={{ width: "100%" }} />
                                                 <h1 className="modern_text">Proyecto 2</h1>
                                                 <div className="middle">
-                                                    <div className="text">Ver proyecto</div>
+                                                    <Link to='/productos' className="text">Ver proyecto</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -110,7 +111,7 @@ const Proyectos = () => {
                                                 <img src={img6} alt="Avatar" className="image" style={{ width: "100%" }} />
                                                 <h1 className="modern_text">Proyecto 3</h1>
                                                 <div className="middle">
-                                                    <div className="text">Ver proyecto</div>
+                                                    <Link href="#" className="text">Ver proyecto</Link>
                                                 </div>
                                             </div>
                                         </div>

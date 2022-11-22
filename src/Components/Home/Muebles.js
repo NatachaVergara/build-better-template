@@ -16,14 +16,14 @@ const Muebles = () => {
                     <div className="row">
                         <Mueblesitem
                             img={img2}
-                            a='3'
+                            a='/productos'
                             h3='Tempor incididunt ut labore et dolore'
                             p='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi'
 
                         />
                         <Mueblesitem
                             img={img3}
-                            a='3'
+                            a='/productos3'
                             h3='Tempor incididunt ut labore et dolore'
                             p='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi'
                         />

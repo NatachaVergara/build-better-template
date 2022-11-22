@@ -292,6 +292,7 @@ button {
 }
 
 @media (max-width: 575px) {
+  
   .banner_section {
     background-size: cover;
     padding-top: 20px;
@@ -323,15 +324,15 @@ button {
 /*Fin Banner secction*/
 
 /***********************************/
-/*Inicio Services secction*/
+/*Inicio Services-productos secction*/
 
-.services_section {
+.services_section, .productos_section {
   width: 100%;
   float: left;
   padding-bottom: 90px;
 }
 
-.services_taital {
+.services_taital, .productos_taital {
   width: 100%;
   float: left;
   font-size: 36px;
@@ -731,6 +732,21 @@ button {
   .text {
     font-size: 8px;
   }
+}
+
+
+/*Proyecto */
+.proyecto_section {
+  width: 100%;
+  float: left;
+  background-image: url("./assets/images/contact-bg.png");
+  height: auto;
+  background-size: 100%;
+  padding-bottom: 90px;
+  background-repeat: no-repeat;
+}  
+.proyecto_section h5{
+  text-transform:uppercase;
 }
 
 /***********************************/

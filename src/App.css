@@ -345,6 +345,7 @@ button {
 @media (max-width: 575px) {
 .banner_layout_padding{
   padding-top: 30px;
+  padding-bottom: 482px;
 }
   .banner_section {
     height:0%;

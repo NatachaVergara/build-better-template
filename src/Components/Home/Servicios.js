@@ -9,7 +9,7 @@ import ServiceItem from './ServiceItem'
 const Servicios = () => {
     return (
         // <!-- services section start -->
-        <div className="services_section ">
+        <div className="services_section mt-5">
             <div className="container">
                 <h1 className="services_taital">Servicios</h1>
                 <p className="many_taital">There are many variations of passages of Lorem Ipsum </p>

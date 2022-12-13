@@ -7,7 +7,7 @@ const CarouselItem = ({ h1, p, active }) => {
             <h1 className="furniture_title"> {h1} </h1>
             <p className="there_text">{p}  </p>
             <div className="contact_bt_main">
-                <div className="contact_bt"><Link to='/contacto' >Contacto </Link></div>
+                <div className="contact_bt"><Link to={`/contacto/Quiero información sobre ${h1}`} >Contacto </Link></div>
             </div>
         </div>
     )

@@ -1,19 +1,18 @@
 import React, { useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import img1 from "../../assets/images/img-1.png";
 import img2 from "../../assets/images/img-2.png";
 import img3 from "../../assets/images/img-3.png";
 import img4 from "../../assets/images/img-4.png";
 import img5 from "../../assets/images/img-5.png";
-import logoWhatups from "../../assets/images/logo_whatsup.png";
 import { gotoTop, title } from "../../utils/functions";
 
 const Proyecto = () => {
   const { proyecto } = useParams();
-  let mensaje = `https://api.whatsapp.com/send?phone=0123456789&text=Hola, Nececito más información sobre ${proyecto}!`;
+  //let mensaje = `https://api.whatsapp.com/send?phone=0123456789&text=Hola, Nececito más información sobre ${proyecto}!`;
   title('Proyecto');
-  useEffect(()=> gotoTop());
+  useEffect(() => gotoTop());
 
 
 
@@ -74,19 +73,16 @@ const Proyecto = () => {
             <li className="list-group-item">A third item</li>
           </ul>
           <div className="card-body">
-            <a
-              href={mensaje}
-              target="_blank"
-              rel="noreferrer"
-              className="logo-whatsup"
-            >
-              <img
-                src={logoWhatups}
-                alt="logo whatsup"
-                className="me-3 text-dark"
-              />
-              Quiero información
-            </a>
+            <div className="btn-group d-none d-md-inline" role="group">
+              <button type="button" className="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Consultar precio
+              </button>
+              <ul className="dropdown-menu">
+                <li className=''><a href={`https://api.whatsapp.com/send?phone=+541124971986&text=Hola, Quiero info sobre ${proyecto}`} target='_blank' rel="noreferrer" className='dropdown-item text-center d-flex justify-content-center'>Whatsapp web <box-icon type='logo' name='whatsapp'></box-icon></a></li>
+                <li><Link className="dropdown-item text-center d-flex justify-content-center" to={`/contacto/Hola, Quiero info sobre ${proyecto}`}>Email <box-icon name='envelope'></box-icon></Link></li>
+              </ul>
+            </div>
+            <a href={`https://api.whatsapp.com/send?phone=+541124971986&text=Hola, Hola, Quiero info sobre ${proyecto}`} target='_blank' rel="noreferrer" className='ms-3 d-flex d-md-none justify-content-between align-items-center btn btn-success text-center w-100 '>Consultar <box-icon type='logo' name='whatsapp'></box-icon></a>
           </div>
         </div>
       </div>
